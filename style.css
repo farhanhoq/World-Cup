@@ -33,6 +33,12 @@
     grid-template-columns: repeat(3, 1fr);
     padding-top: 60px;
 }
+.blog-post{
+    border: 1px solid gray;
+    margin: 10px;
+    width: 312px;
+    border-radius: 12px;
+}
 .caption{
     padding-left: 20px;
 }
