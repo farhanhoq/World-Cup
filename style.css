@@ -1,0 +1,46 @@
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 800px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+.info{
+    padding: 40px;
+    padding-right: 0;
+}
+.image img{
+    padding: 35px 50px 0px 0;
+    margin-bottom: 0px;
+}
+.banner .info h1{
+    font-size: 3.5em;
+    padding: 0;
+}
+.banner .info p {
+    padding: 0;
+}
+.banner .info h3 {
+    background-color: red;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 60px;
+}
+.caption{
+    padding-left: 20px;
+}
+.timendcomment{
+    display: flex;
+    align-items: center;
+}
+.timendcomment img{
+    padding-left: 20px;
+    height: 20px;
+}
