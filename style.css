@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 .banner{
     display: flex;
     justify-content: space-between;
@@ -9,11 +12,9 @@
 }
 .info{
     padding: 40px;
-    padding-right: 0;
 }
 .image img{
     padding: 35px 50px 0px 0;
-    margin-bottom: 0px;
 }
 .banner .info h1{
     font-size: 3.5em;
@@ -113,4 +114,54 @@ hr{
 }
 .time{
     text-align: center;
+}
+
+@media screen and (max-width: 688px) {
+    body{
+        margin: 0px;
+    }
+    .banner{
+        width: 90%;
+        flex-direction: column;
+    }
+    .image img{
+        padding-left: 40px;
+        width: 80%;
+    }
+    .banner .info h1{
+        font-size: 2em;
+        text-align: center;
+    }
+    .banner .info p{
+        text-align: center;
+    }
+    .banner .info h3{
+        margin-top: 40px;
+        margin-left: 80px;
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .middle-part{
+        flex-direction: column;
+        margin: 0px 50px;
+    }
+    .middle-part .menu{
+        align-self: center;
+    }
+    .menu{
+        background-color: white;
+    }
+    .menu h2{
+        border: 1px solid rgb(218, 215, 215);
+
+    }
+    .foot{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .foot h4{
+        margin-right: 200px;
+        align-self: center;
+    }
 }
