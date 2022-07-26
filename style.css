@@ -5,7 +5,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: auto;
-    width: 1100px;
+    width: 90%;
     background-color: black;
     color: white;
     border-radius: 10px;
@@ -20,6 +20,7 @@ body{
     font-size: 3.5em;
     text-align: left;
     padding: 0;
+    margin-bottom: 0px;
 }
 .banner .info p {
     padding: 0;
@@ -33,12 +34,13 @@ body{
 .blogs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    width: 50%;
+    width: 60%;
 }
 .blog-post{
     border: 1px solid rgb(233, 231, 231);
     margin: 10px;
-    width: 280px;
+    margin-right: 50px;
+    width: 82%;
     border-radius: 12px;
 }
 .blog-image img{
@@ -59,7 +61,7 @@ body{
     display: flex;
     padding-top: 60px;
     padding-bottom: 40px;
-    margin-left: 80px;
+    margin-left: 55px;
 }
 .menu{
     background-color: black;
@@ -73,13 +75,31 @@ body{
     border-radius: 10px;
 }
 .menu h2{
-    background-color: white;
     width: 150px;
     height: 30px;
     padding-top: 10px;
     text-align: center;
     border-radius: 5px;
     font-size: 18px;
+}
+.white-btn{
+    background-color: white;
+}
+.red-btn{
+    background-color: red;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+.more{
+    text-align: center;
+    color: white;
+    background-color: red;
+    display: none;
 }
 footer{
     background-color: rgb(31, 30, 30);
@@ -188,29 +208,29 @@ footer{
             text-align: left;
         }
     
-        .banner .info p {
+    .banner .info p {
             text-align: left;
         }
     
-        .banner .info h3 {
+    .banner .info h3 {
             margin-top: 40px;
         }
     
-        .blogs {
+    .blogs {
             width: 100%;
             grid-template-columns: repeat(2, 1fr);
         }
     
-        .middle-part {
+    .middle-part {
             flex-direction: column;
             margin: 0px 50px;
         }
     
-        .middle-part .menu {
+    .middle-part .menu {
             align-self: center;
         }
     
-        .menu {
+    .menu {
             width: 100%;
             height: 60px;
             padding-left: 0px;
@@ -218,29 +238,35 @@ footer{
             display: flex;
             justify-content: space-between;
         }
-        .blog-post{
+    .blog-post{
             width: 90%;
         }
-        .blog-image img{
+    .blog-image img{
             width: 100%;
         }
     
-        .menu h2 {
+    .menu h2 {
             border: 1px solid rgb(218, 215, 215);
             margin: 0px 30px;
         }
-        footer{
+    .more{
+        display: inline-block;
+        margin-left: 350px;
+        margin-bottom: 20px;
+        padding: 0px 10px;
+    }
+    footer{
             width: 100%;
         }
     
-        .foot {
+    .foot {
             width: 100%;
             margin: auto;
             display: flex;
             justify-content: space-around;
         }
     
-        .foot h4 {
+    .foot h4 {
             width: 80px;
             align-self: center;
         }
