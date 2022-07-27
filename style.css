@@ -3,6 +3,9 @@ body{
     font-family: 'Edu VIC WA NT Beginner', cursive;
         font-family: 'Roboto', sans-serif;
 }
+
+ /*--~~~~~~~~~~~Styling for Top Banner~~~~~~~~~~~~--> */
+
 .banner{
     display: flex;
     justify-content: space-between;
@@ -37,6 +40,9 @@ body{
     background-color: lightsalmon;
     padding: 20px;
 }
+
+ /*--~~~~~~~~~~~Styling for Blogs and Schedule part~~~~~~~~~~~~--> */
+
 .blogs{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -52,13 +58,16 @@ body{
 .blog-image img{
     width: 280px;
 }
+
 .caption{
     padding-left: 20px;
 }
+
 .timendcomment{
     display: flex;
     align-items: center;
 }
+
 .timendcomment img{
     padding-left: 20px;
     height: 20px;
@@ -69,6 +78,9 @@ body{
     padding-bottom: 40px;
     margin-left: 55px;
 }
+
+ /*--~~~~~~~~~~~Styling for Menu part~~~~~~~~~~~~--> */
+
 .menu{
     background-color: black;
     height: 200px;
@@ -101,12 +113,18 @@ a{
 a:visited{
     color: black;
 }
+
+ /*--~~~~~~~~~~~Styling for View All button~~~~~~~~~~~~--> */
+
 .more{
     text-align: center;
     color: white;
     background-color: red;
     display: none;
 }
+
+ /*--~~~~~~~~~~~Styling of footer part~~~~~~~~~~~~--> */
+
 footer{
     background-color: rgb(31, 30, 30);
     color: whitesmoke;
@@ -144,6 +162,8 @@ footer{
 .time{
     text-align: center;
 }
+
+ /*--~~~~~~~~~~~Responsive for Mobile devices~~~~~~~~~~~~--> */
 
 @media screen and (max-width: 688px) {
     body{
@@ -195,6 +215,9 @@ footer{
         align-self: center;
     }
 }
+
+ /*--~~~~~~~~~~~Responsive for Tab devices~~~~~~~~~~~~--> */
+
 @media screen and (min-width: 689px) and (max-width: 992px) {
     body {
             margin: 0px;
